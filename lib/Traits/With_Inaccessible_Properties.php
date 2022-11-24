@@ -3,6 +3,7 @@
 namespace Adiungo\Tests\Traits;
 
 use ReflectionException;
+use ReflectionProperty;
 
 trait With_Inaccessible_Properties
 {
@@ -11,10 +12,10 @@ trait With_Inaccessible_Properties
      *
      * @param object $object
      * @param string $property
-     * @return mixed
+     * @return ReflectionProperty
      * @throws ReflectionException
      */
-    protected function get_protected_property(object $object, string $property): mixed
+    protected function get_protected_property(object $object, string $property): ReflectionProperty
     {
         $reflection = new \ReflectionClass($object);
 
