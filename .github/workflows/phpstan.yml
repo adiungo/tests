@@ -12,6 +12,6 @@ jobs:
       - name: PHPStan Static Analysis
         uses: php-actions/phpstan@v3
         with:
-          path: lib/ tests/
+          path: lib/
           level: 9
           php_version: 8.1
