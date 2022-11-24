@@ -1,6 +1,6 @@
 {
-    "name": "adiungo/core",
-    "description": "Take control of your online identity, and archive all of your online content on their website automatically",
+    "name": "adiungo/tests",
+    "description": "Testing library for adiungo",
     "type": "library",
     "keywords": [
         "index",
@@ -9,7 +9,7 @@
         "social media",
         "archive"
     ],
-    "homepage": "https://github.com/adiungo/core",
+    "homepage": "https://github.com/adiungo/tests",
     "readme": "README.md",
     "license": "MIT",
     "scripts": {
@@ -17,12 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Adiungo\\Core\\": "lib/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Adiungo\\Core\\Tests\\": "tests/"
+            "Adiungo\\Tests\\": "lib/"
         }
     },
     "authors": [
@@ -32,13 +27,12 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/adiungo/core/issues",
-        "forum": "https://github.com/adiungo/core/discussions",
-        "wiki": "https://github.com/adiungo/core/wiki",
-        "source": "https://github.com/adiungo/core/releases",
+        "issues": "https://github.com/adiungo/tests/issues",
+        "forum": "https://github.com/adiungo/tests/discussions",
+        "source": "https://github.com/adiungo/tests/releases",
         "chat": "https://matrix.to/#/#project-adiungo:matrix.org"
     },
-    "require-dev": {
+    "require": {
         "phpstan/phpstan": "^1.9",
         "friendsofphp/php-cs-fixer": "^3.13",
         "phpunit/phpunit": "^9.5",

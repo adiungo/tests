@@ -1,3 +1,7 @@
-# Adiungo Repository
+# Adiungo Testing Library
 
-This is a new repository for Adiungo. I'm sure it'll be really cool, but I don't have much else to say about it yet. Hang tight, I'm sure this will change :)
+This repository contains all of the test features used by the various packages in Adiungo.
+
+## Installation
+
+`composer require --dev adiungo/tests`
